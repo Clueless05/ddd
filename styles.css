@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    overflow: auto-enabled;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.header-background {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #464646;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 10px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    background-color: #383838;
+    box-shadow: 0 6px 8px rgba(63, 63, 63, 0.15);
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.table-class {
+    border: 2px solid #666;
+}
+
+.text-class {
+    color: #666;
+    font-style: italic;
+}
+
+.navbar{
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border: 10px solid #2b2b2b;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+    transition-duration: 1s;
+}
+
+img:hover {
+    border: 5px solid #000000;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-filter: none;
+    filter: none;
+    transition-duration: 0.5s;
+}
+
+footer {
+    background-color: #3d3d3d;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    min-width: 100vw;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+ul, li {
+    margin-bottom: 10px; /* nebo padding-bottom: 10px; */
+}
+
+.sources li {
+    font-size: 0.7em; /* Zmenšení velikosti značky */
+    margin-right: 5px; /* Prostor mezi značkou a textem */
+}
